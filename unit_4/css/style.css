@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,300italic,700,700italic);
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i';
+
+body {
+	font-family: 'Raleway', sans-serif;;
+	font-size: 16px; /*em = 16px*/
+	background-color: rgb(125,125,125); 
+	line-height: 1.3em;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	/*font-weight: 700;*/
+	font-size: 4.5em;
+	letter-spacing: 1px;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: rgb(0,221,255);
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1em;
+	color: rgb(0,221,255);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+li {
+	font-family: 'Raleway', sans-serif;
+	/*font-style:italic;*/
+	color: white;
+}
+
+a {
+	color: rgb(0,221,255);
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+#images {
+	columns: 3;
+	text-align: center;
+}
+
+#list {
+	columns: 3;
+	font-size: .8em;
+	vertical-align: text-top;
+	padding: 0px 0px 20px;
+	/*list-style-type: square;*/
+}
