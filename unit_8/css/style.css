@@ -1,0 +1,170 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i';
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i';
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px; /*em = 16px*/
+	background-color: rgb(125,125,125); 
+	line-height: 1.3em;
+}
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 2.5em;
+	letter-spacing: 1px;
+	color: white;
+}
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: rgb(0,221,255);
+}
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1em;
+	color: rgb(0,221,255);
+	text-transform: uppercase;
+	text-align: center;
+}
+p {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	line-height: 1.5em;
+}
+header {
+	background-color: rgb(125,125,125); 
+	/*width: 90%;*/
+}
+nav {
+	margin: 4.75em 0 0 0;
+	text-align: center;
+	padding: 0;
+	float: right;
+}
+a {
+	color: rgb(0,221,255);
+	text-decoration: none;
+}
+nav a:link {
+	font-size: .8em;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 1em 1em;
+}
+nav a:hover {
+	color: black;
+}
+main {
+	padding: 0;
+	margin: 0;
+}
+li {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+footer {
+	padding: 0 20px;
+}
+div {
+	padding: 0;
+	margin: 0;
+}
+img {
+	width: 100%;
+}
+label {
+	font-family: 'Raleway', sans-serif;
+	font-size: .8em;
+	color: rgb(0,221,255);
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 1em 3em;
+	display: none;
+}
+#name {
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+}
+#hero {
+	background-color: rgb(125,125,125);
+	padding: 0em;
+	margin: 0; 
+	/*background:url(../images/cmyk.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+	width: 100%;
+	padding:20px 0;*/
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.wrapper {
+	width: 1286px;
+	margin: auto;
+}
+.column_1 {
+    width: 30%;
+    margin: 0;
+    padding: 0 1em;
+    float: left;
+}
+#toggle{
+	display: none;
+}
+@media only screen and (max-width:1000px){
+	.column_1 {
+		width:100%;
+		padding: 0;
+		margin: 0;
+		}
+}
+@media only screen and (max-width:800px){
+	nav {
+    	margin: 1em 0em;
+    	background: green;
+    	width: 100%;
+	}
+	nav a{
+		display: block;
+		}
+	#name {
+		margin: 0 4em 0 0;
+	}
+	#hero {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 600px){
+	nav {
+		display: none;
+	}
+	label {
+		display: block;
+	}
+	#name {
+		float: none;
+	}
+	#toggle:checked + nav{
+		display: block;
+	}
+}
+@media only screen and (max-width:450px){
+	#hero {
+		display: none;
+}
