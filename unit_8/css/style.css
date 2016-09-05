@@ -137,7 +137,6 @@ label {
 @media only screen and (max-width:800px){
 	nav {
     	margin: 1em 0em;
-    	background: green;
     	width: 100%;
 	}
 	nav a{
